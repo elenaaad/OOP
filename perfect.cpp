@@ -15,12 +15,12 @@ int perfect (int x)
  }
 
  int main ()
-{
+ {
+    int a, b;
  cin>>a>>b;
  int i;
- for (i=a; i<=b, i++)
-   if ( perfect(i) == 1)
-     cout<<i;
+ for (i=a; i<=b; i++)
+   if ( perfect(i)==1)cout<<i;
 
 return 0;
 }
